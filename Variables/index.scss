@@ -1,0 +1,47 @@
+$mainColor: #c8deff;
+$bg-image-center:no-repeat center/cover;
+
+body {
+    background:linear-gradient(#a5aae9cc, #8c9af6);
+}
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: $mainColor;
+    max-width: 280px;
+    padding: 20px;
+    line-height: 24px;
+    margin:4rem; 
+    position:relative;
+}
+
+.img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 5px solid white;
+    position:relative;
+    right: -30px;
+    bottom:110px;
+}
+
+.img-one{
+    background: url(imageOne.png) $bg-image-center;
+}
+
+.img-two{
+    background: url(imageTwo.jfif) $bg-image-center;
+}
+.img-three{
+    background: url(imageThree.png) $bg-image-center;
+}
+.img-four{
+    background: url(imageFour.png) $bg-image-center;
+}
+
